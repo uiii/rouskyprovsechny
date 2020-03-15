@@ -1,0 +1,43 @@
+body {
+	font-family: Montserrat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Nunito;
+}
+
+.jumbotron {
+	position: relative;
+	background: none;
+}
+
+.jumbotron::after {
+	content: "";
+	background: url(bg3.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.section-title {
+	font-weight: bold;
+}
+
+.why .blockquote {
+	margin-top: 2em;
+	font-size: 14px;
+}
+
+.why .blockquote-footer {
+	font-size: 14px;
+}
+
+.how {
+	margin-top: 3em;
+}
